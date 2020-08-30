@@ -1,0 +1,106 @@
+/* @media (max-width: 580px) {
+    .nav {
+        display: none;
+    }
+    .banner {
+        width: 100%;
+    }
+    .img-banner {
+        height: 400px;
+        width: 100%;
+        background-size: 200% 300px;
+    }
+    .banner-text h3 {
+        font-size: 15px;
+    }
+    .banner-text h1 {
+        font-size: 20px;
+    }
+    .banner-text {
+        height: 348px;
+        width: 70%;
+        margin-left: 7px;
+    }
+    .container-about .icons {
+        display: none;
+    }
+    .container-about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 600px;
+        background-size: 100% 680px;
+    }
+    .container-text h1 {
+        font-size: 15px;
+    }
+    .container-text p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .container-text {
+        padding: 13px;
+        width: 90%;
+        text-align: justify;
+    }
+    .btn-border {
+        height: 26px;
+        width: 99px;
+    }
+    .btn-border .btn {
+        height: 26px;
+        width: 99px;
+    }
+    .banner1 {
+        width: 100%;
+        height: 79%;
+        padding: 0;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .banner1 .img-1 {
+        width: 20px;
+        width: 205px;
+    }
+    .text-panel {
+        padding: 0;
+        margin-left: 10px;
+    }
+    .wraper-text h1 {
+        font-size: 15px;
+    }
+    .wraper-text p {
+        font-size: 15px;
+        margin-right: -34px;
+        line-height: 25px;
+    }
+    .wraper-text {
+        padding: 0;
+        width: 100%;
+        text-align: justify;
+    }
+    .post-imgs .a img {
+        width: 73px;
+    }
+    .slider-post img {
+        display: none;
+    }
+    .slider-images2 img {
+        width: 100px;
+        height: 100px;
+    }
+    .slider-images2 {}
+    .wraper-text2 h1, p {
+        font-size: 15px;
+    }
+    .wraper-text2 {
+        width: 100%;
+        text-align: justify;
+    }
+    .text-panel2 {
+        width: 49%;
+    }
+    .full-package {
+        width: 87%;
+        padding: 11px 18px;
+    }
+} */

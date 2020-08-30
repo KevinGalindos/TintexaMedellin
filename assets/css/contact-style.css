@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/*************************** Contact-footer ************************/
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mid-container{
+    display: flex;
+    align-items: center;   
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+}
+
+.area1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.area1 .name{
+    width: 48%;
+    height: 30px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: 1px solid #adadad;
+}
+
+.contact-form .input-t {
+
+    width: 99%;
+    height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    border: 1px solid #adadad;
+    
+}
+
+.contact-form textarea{
+    border-radius: 5px;
+    width: 99%;
+    height: 120px;
+    background-color: #f7f7f7;
+    border: 1px solid #adadad;
+    resize: none;
+    padding: 10px;  
+    border: 1px solid #adadad;
+    
+    
+}
+
+.btn-send{
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn-send i.fas.fa-paperclip {
+    display: flex;
+    align-items: center;
+}

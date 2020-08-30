@@ -1,0 +1,178 @@
+body { 
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/******************************** Banner ********************/
+
+/************************* Purpose **********************/
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+    background-image: url(http://ilovemedellin.com.co/tintexa/wp-content/uploads/2020/06/fondo.jpg);
+    background-size: cover;
+    padding: 30px 0;
+
+}
+
+.purpose-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 40px;
+    margin: 0;
+    font-size: 17px;
+}
+
+.entity-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.entities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.entities h3 {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.entities h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+/*******************************Pruebas materiales  ***************************/
+
+.container-tests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 60px;
+}
+.test-items {
+    display: flex;
+    width: 80%;
+    padding: 50px 10px;
+}
+
+.title-test {
+    display: flex;
+}
+
+.number {
+    width: 70px;
+    margin-top: -35px;
+    height: 70px;
+    background-color: #037617;
+    color: #ffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 70px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: -10px 30px 30px -30px rgba(0,0,0,0.75);
+}
+.icon-test {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fff;
+    z-index: 1;
+    margin-top: -20px;
+    box-shadow: 0px 10px 35px -20px rgba(0,0,0,0.75);
+}
+
+
+-icon-test img {
+    border-radius: 50%;
+}
+
+
+.desc-t {
+    width: 100%;
+}
+
+
+.desc-t h3 {
+    background-color: #d13139;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    width: 450px;
+    color: #fff;
+    margin-left: -140px;
+    border-radius: 3em;
+    font-size: 22px;
+}
+
+.content-text- {
+    margin-top: 20px;
+    margin-left: -25px;
+}
+
+
+.content-text- p{
+    line-height: 30px;
+    margin:0;
+    padding: 5px 0;
+    
+}
+
+.content-text- h4{
+    margin: 0;
+    margin-top: 30px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+/**************************** Gallery *******************/
+
+.pics {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    margin: 0;
+    background: url(http://ilovemedellin.com.co/tintexa/wp-content/uploads/2020/06/fondo2.jpg);
+}
+
+.gallery-pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.gallery-pics img.img-fluid {
+    margin: 25px;
+    height: 150px;
+    object-fit: cover;
+}

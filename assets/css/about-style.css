@@ -1,0 +1,304 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid.about-section {
+    padding: 60px 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.about-box {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 30px;
+}
+
+.col-md-4.col-sm-12.imagen {
+    padding: 0;
+}
+/******************************* Purpose *************************/
+
+.proposito {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 30px;
+    padding: 70px 0;
+}
+
+
+.col-md-5.col-sm-12.imagen-proposito {
+    padding: 0;
+}
+
+.p-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 80px;
+}
+
+/************************** Mision *********************/
+
+.mision-box {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 30px;
+    align-items: center;
+    background: url(http://ilovemedellin.com.co/tintexa/wp-content/uploads/2020/06/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+
+}
+
+.row.row-mision {
+    justify-content: flex-end;
+}
+
+.mision-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+.col-md-5.col-sm-12.imagen-mision {
+    padding: 0;
+}
+
+/*************************** Como nos vemos ******************/
+
+.how-look {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+
+.col-md-4.imagen-vision {
+    padding: 0;
+}
+
+.text-look {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 70px;
+}
+
+/************************* Pilares *****************/
+
+.card {
+    font-size: 11px;
+    display: flex;
+    height: 100%;
+}
+
+.container.logo-pillars {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.pillars {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: url(http://ilovemedellin.com.co/tintexa/wp-content/uploads/2020/06/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pillars h1{
+    display: flex;    
+}
+
+.bot-frame {
+    border: 1px solid #98c29f;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    align-items: center;
+    height: 80px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    cursor: pointer;
+    z-index: 2;
+    animation: escalar 1.5s infinite alternate;
+}
+
+@keyframes escalar{
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform: scale(1.3);
+    }
+}
+
+.bot-frame2 {
+    border: 1px solid #98c29f;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    align-items: center;
+    height: 80px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: -5%;
+    right: 18%;
+    cursor: pointer;
+    z-index: 2;
+    animation: escalar 1.5s infinite alternate;
+}
+
+.bot-frame3 {
+    border: 1px solid #98c29f;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    align-items: center;
+    height: 80px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    bottom: 8%;
+    right: 29%;
+    cursor: pointer;
+    z-index: 2;
+    animation: escalar 1.5s infinite alternate;
+}
+
+.bot-frame4 {
+    border: 1px solid #98c29f;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    align-items: center;
+    height: 80px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    bottom: -4%;
+    left: 28%;
+    cursor: pointer;
+    z-index: 2;
+    animation: escalar 1.5s infinite alternate;
+}
+.card.card1 {
+    top: 25%;
+    display: none;
+    height: auto;
+    padding: 10px;
+    left: 4%;
+    position: absolute;
+    z-index: 1;
+}
+
+.card.card2 {
+    top: 0%;
+    display: none;
+    height: auto;
+    padding: 10px;
+    right:-5%;
+    position: absolute;
+    z-index: 1;
+}
+
+.card.card3 {
+    
+    display: none;
+    height: auto;
+    padding: 10px;
+    right:2%;
+    bottom: 5%;
+    position: absolute;
+    z-index: 1;
+}
+
+.card.card4 {
+    
+    display: none;
+    height: auto;
+    padding: 10px;
+    left: 8%;
+    bottom: 2%;
+    position: absolute;
+    z-index: 1;
+}
+
+p.card-text {
+    font-size: 12px;
+
+}
+
+.box-card:hover .card.card1{
+    display: flex;
+}
+
+.box-card2:hover .card.card2{
+    display: flex;
+}
+
+.box-card3:hover .card.card3{
+    display: flex;
+}
+
+.box-card4:hover .card.card4{
+    display: flex;
+}
+
+
+.dot{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #7fbb88;
+    border-radius: 50%;
+    border: 10px solid #ffff;
+}
+
+
+/***********************Quality policies ****************/
+
+.quality-policies {
+    display: flex;
+    padding: 100px 0px;
+}
+
+.row.row-quality {
+    justify-content: flex-end;
+}
+
+.quality-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 30px;
+    padding: 0px 50px
+}
+
+.col-md-4.col-sm-12.imagen-politicas {
+    padding: 0;
+}
+
+.politicas-img {
+    box-shadow: -8px 12px 11px -11px rgba(0,0,0,0.75);
+}

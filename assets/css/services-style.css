@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*************** Text wrapper *******************/
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+/*********************** Portafolio  ***************************/
+
+.portfolio {
+    display: flex;
+    color: #5e5c5c;
+    line-height: 30px;
+    list-style: none;
+    padding: 0;
+    align-items: flex-start;
+    height: 690px;
+}
+
+p.title-portfolio {
+    margin: 0;
+}
+
+.col-md-5.col-sm-12.box-portfolio {
+    padding-left: 9%;
+}
+
+ul.row.list-portfolio {
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: #808080;
+}
+
+.row.row.row-imgs.miniaturas {
+   
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    margin-top: 5%;
+    width: 600px;
+}
+
+.img-fluid.mini-img {
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 155px;
+}
+
+.col-md-7.col-sm-12.carousel-box {
+    padding-top: 5%;
+    padding-right: 0;
+}  
